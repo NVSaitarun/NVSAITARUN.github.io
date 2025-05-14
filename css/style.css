@@ -472,6 +472,16 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
+.block-20 {
+  background-size: cover;       /* Crop to fill box while keeping aspect ratio */
+  background-position: center;  /* Center the image inside the box */
+  background-repeat: no-repeat; /* Prevent repeating */
+  width: 100%;                  /* Make image stretch full width of its container */
+  height: 250px;                /* Set a default height (adjust as needed) */
+  display: block;               /* Ensures it's treated as a block-level element */
+}
+
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
